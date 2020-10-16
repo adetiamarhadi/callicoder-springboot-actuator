@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  actuator:
+    image: adetmarhadi/callicoder-springboot-actuator
+    ports:
+      - 8080:8080
+  prometheus:
+    image: adetmarhadi/prometheus
+    ports:
+      - 9090:9090
